@@ -1,0 +1,16 @@
+<table>
+	<thead>
+		<tr>
+			<th>name</th>
+			<th>amount</th>
+		</tr>
+	</thead>
+	<tbody id="tbody">
+		{% for row in rows %}
+		<tr>
+			<td>{{ row.name }}</td>
+			<td>{{ row.amount }}</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
